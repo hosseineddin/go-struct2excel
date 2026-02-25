@@ -1,0 +1,10 @@
+# Excel and CSV output files
+*.xlsx
+*.csv
+
+# Go test binaries
+*.test
+
+# IDE folders
+.idea/
+.vscode/
