@@ -18,7 +18,7 @@ type UserLog struct {
 func TestEngine_GenerateXLSX(t *testing.T) {
 	// 2. Generate dummy data
 	var data []UserLog
-	for i := 1; i <= 100; i++ {
+	for i := 1; i <= 2000000; i++ {
 		data = append(data, UserLog{
 			ID:        i,
 			Username:  "User_" + string(rune(i)),
